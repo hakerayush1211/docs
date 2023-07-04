@@ -1,4 +1,11 @@
-# GitHub Docs <!-- omit in toc -->
+# Column A | Column B | Column C
+---------|----------|---------
+This row is for all versions | B1 | C1
+{%- ifversion ghes %}
+This row is for GHES only | B2 | C2
+{%- endif %}
+This row is for all versions | B3 | C3
+``` Docs <!-- omit in toc -->
 
 This repository contains the documentation website code and Markdown source files for [docs.github.com](https://docs.github.com).
 
